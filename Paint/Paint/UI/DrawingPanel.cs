@@ -337,7 +337,7 @@ namespace Paint
         {
             var saveFileDialog = new SaveFileDialog();
 
-            saveFileDialog.Title = Constants.DrawingPanel.saveFileDialogTitle
+            saveFileDialog.Title = Constants.DrawingPanel.saveFileDialogTitle;
             saveFileDialog.Filter = filter;
 
             if (saveFileDialog.ShowDialog() == DialogResult.OK)

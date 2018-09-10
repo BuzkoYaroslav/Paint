@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants.cs" />
     <Compile Include="DrawingProjectManager.cs" />
     <Compile Include="Geometric framework\Canvas.cs" />
     <Compile Include="Geometric framework\CurvedLine.cs" />
