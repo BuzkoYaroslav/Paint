@@ -183,6 +183,9 @@ namespace Paint.Geometric_framework
 
         public void FinishFigure()
         {
+            if (!figureIsStarted)
+                return;
+
             previousImageState = null;
             figureIsStarted = false;
 
